@@ -42,7 +42,7 @@ async def gmute_user(client: Client, message: Message):
     elif user.id == SUDO_USERS:
         return await ex.edit("**Okay But Failed Because this user in sudos.. 🐽**")
     elif user.id == VERIFIED_USERS:
-        return await ex.edit("**Chal Chal Baap ko Mat sikha.. 🐽**")
+        return await ex.edit("**Thats a Goddamn GOD bruv.. 🐽**")
     try:
         if user.id in (await get_rraid_users()):
            await ex.edit("Replyraid is activated on this user")
